@@ -215,6 +215,15 @@
           "keys": [
             {
               "type": "Submodel",
+              "value": "https://www.aut.ruhr-uni-bochum.de/SM_AD_V1_PSTB"
+            }
+          ]
+        },
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
               "value": "https://www.aut.ruhr-uni-bochum.de/SM_Pipe_V1_PSTM_TM"
             }
           ]
@@ -2360,15 +2369,6 @@
             {
               "type": "Submodel",
               "value": "https://www.aut.ruhr-uni-bochum.de/SM_Deterministic_Change_Engineering"
-            }
-          ]
-        },
-        {
-          "type": "ModelReference",
-          "keys": [
-            {
-              "type": "Submodel",
-              "value": "https://www.aut.ruhr-uni-bochum.de/New_SM_PS2_Pumpe"
             }
           ]
         }
@@ -13122,6 +13122,570 @@
               ],
               "valueType": "xs:string",
               "value": "2026-03-08T16:40:05.865111\u002B01:00",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "Submodel"
+    },
+    {
+      "idShort": "TechnicalData_AD_V1_PSTB",
+      "administration": {
+        "version": "1",
+        "revision": "0"
+      },
+      "id": "https://www.aut.ruhr-uni-bochum.de/SM_AD_V1_PSTB",
+      "kind": "Instance",
+      "semanticId": {
+        "type": "ModelReference",
+        "keys": [
+          {
+            "type": "Submodel",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2"
+          }
+        ]
+      },
+      "submodelElements": [
+        {
+          "category": "PARAMETER",
+          "idShort": "GeneralInformation",
+          "semanticId": {
+            "type": "ModelReference",
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/GeneralInformation/1/1"
+              }
+            ]
+          },
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "valueType": "xs:string",
+              "value": "One",
+              "valueId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ]
+              }
+            }
+          ],
+          "value": [
+            {
+              "category": "PARAMETER",
+              "idShort": "ManufacturerName",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAO677#002"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "Producer of AD_V1_PSTB",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "ManufacturerProductDesignation",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAW338#001"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "Designation of AD_V1_PSTB",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "ManufacturerArticleNumber",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAO676#003"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "Article Number of AD_V1_PSTB",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "ManufacturerOrderCode",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAO227#002"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "Order Code of AD_V1_PSTB",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "PARAMETER",
+          "idShort": "ProductClassifications",
+          "semanticId": {
+            "type": "ModelReference",
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassifications/1/1"
+              }
+            ]
+          },
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "valueType": "xs:string",
+              "value": "ZeroToOne",
+              "valueId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ]
+              }
+            }
+          ],
+          "value": [
+            {
+              "category": "PARAMETER",
+              "idShort": "ProductClassificationSystem",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassificationSystem/1/1"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "ECLASS",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "ClassificationSystemVersion",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ClassificationSystemVersion/1/1"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "ZeroToOne",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "13.0",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "ProductClassId",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassId/1/1"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "27-01-88-77",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "CONSTANT",
+          "idShort": "TechnicalProperties",
+          "semanticId": {
+            "type": "ModelReference",
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/TechnicalProperties/1/1"
+              }
+            ]
+          },
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "valueType": "xs:string",
+              "value": "One",
+              "valueId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ]
+              }
+            }
+          ],
+          "value": [
+            {
+              "category": "PARAMETER",
+              "idShort": "Pressure",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-BAH960#009"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:double",
+              "value": "1.0",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "Temperature",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAZ824#004"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:double",
+              "value": "20.0",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "Flow",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAZ845#004"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:double",
+              "value": "1.5",
+              "modelType": "Property"
+            },
+            {
+              "category": "PARAMETER",
+              "idShort": "State",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "0173-1#02-AAG315#006"
+                  }
+                ]
+              },
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:double",
+              "value": "14.0",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "PARAMETER",
+          "idShort": "FurtherInformation",
+          "semanticId": {
+            "type": "ModelReference",
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/TechnicalProperties/1/1"
+              }
+            ]
+          },
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "valueType": "xs:string",
+              "value": "One",
+              "valueId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ]
+              }
+            }
+          ],
+          "value": [
+            {
+              "category": "CONSTANT",
+              "idShort": "StatusInformation",
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "UnderEvaluation",
+              "modelType": "Property"
+            },
+            {
+              "category": "CONSTANT",
+              "idShort": "AMLEvaluationDate",
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "2026-03-08T16:40:05.901743\u002B01:00",
               "modelType": "Property"
             }
           ],
@@ -100023,6 +100587,37 @@
                   "valueType": "xs:string",
                   "value": "AD_V1_PSTB",
                   "modelType": "Property"
+                },
+                {
+                  "category": "PARAMETER",
+                  "idShort": "Relation",
+                  "first": {
+                    "type": "ModelReference",
+                    "keys": [
+                      {
+                        "type": "Submodel",
+                        "value": "https://www.aut.ruhr-uni-bochum.de/SM_AD_V1_PSTB"
+                      }
+                    ]
+                  },
+                  "second": {
+                    "type": "ModelReference",
+                    "keys": [
+                      {
+                        "type": "Submodel",
+                        "value": "https://www.aut.ruhr-uni-bochum.de/SM_AMLGeneric"
+                      },
+                      {
+                        "type": "File",
+                        "value": "AMLFile"
+                      },
+                      {
+                        "type": "FragmentReference",
+                        "value": "1f99aa60-e42d-4d15-9077-14d7a8409796"
+                      }
+                    ]
+                  },
+                  "modelType": "RelationshipElement"
                 }
               ],
               "modelType": "SubmodelElementCollection"
@@ -149096,7 +149691,7 @@
                     }
                   ],
                   "valueType": "xs:string",
-                  "value": "POST",
+                  "value": "DELETE",
                   "modelType": "Property"
                 },
                 {
@@ -149130,7 +149725,7 @@
                     }
                   ],
                   "valueType": "xs:dateTime",
-                  "value": "2026-03-08T16:41:13.487972",
+                  "value": "2026-03-08T16:41:13.504835",
                   "modelType": "Property"
                 },
                 {
@@ -149471,48 +150066,7 @@
                         "keys": [
                           {
                             "type": "Submodel",
-                            "value": "https://www.aut.ruhr-uni-bochum.de/SM_PS2_Pumpe"
-                          }
-                        ]
-                      },
-                      "modelType": "ReferenceElement"
-                    },
-                    {
-                      "category": "PARAMETER",
-                      "idShort": "TechnicalDataChanges",
-                      "description": [
-                        {
-                          "language": "en-US",
-                          "text": "Reference to the new state of the technical data Submodel"
-                        },
-                        {
-                          "language": "de",
-                          "text": "Referenz auf den neuen Zustand des Teilmodells Technische Daten"
-                        }
-                      ],
-                      "qualifiers": [
-                        {
-                          "kind": "ConceptQualifier",
-                          "type": "Cardinality",
-                          "valueType": "xs:string",
-                          "value": "ZeroToOne",
-                          "valueId": {
-                            "type": "ExternalReference",
-                            "keys": [
-                              {
-                                "type": "GlobalReference",
-                                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
-                              }
-                            ]
-                          }
-                        }
-                      ],
-                      "value": {
-                        "type": "ModelReference",
-                        "keys": [
-                          {
-                            "type": "Submodel",
-                            "value": "https://www.aut.ruhr-uni-bochum.de/New_SM_PS2_Pumpe"
+                            "value": "https://www.aut.ruhr-uni-bochum.de/SM_AD_V1_PSTB"
                           }
                         ]
                       },
@@ -149549,7 +150103,7 @@
                         }
                       ],
                       "value": {
-                        "type": "ModelReference",
+                        "type": "ExternalReference",
                         "keys": [
                           {
                             "type": "Submodel",
@@ -149561,7 +150115,7 @@
                           },
                           {
                             "type": "FragmentReference",
-                            "value": "ae9243ce-b526-4249-b0dd-8fe89589b86e"
+                            "value": "7094b610-50b9-43be-a0e5-ceb6209727df"
                           }
                         ]
                       },
