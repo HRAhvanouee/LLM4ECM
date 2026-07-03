@@ -82,7 +82,7 @@ The repository aims to demonstrate:
 
 Watch the demonstration:
 
-[▶️ LLM4ECM Demo](./LLM4ECM.mp4)
+[▶️ LLM4ECM Demo](./Demo.mp4)
 
 ---
 
