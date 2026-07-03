@@ -1,7 +1,4 @@
 # 🔗 Agentic LLM-Based Engineering Change Propagation
-
-> Enabling interoperable, semantically consistent, and automated engineering change management within the Industry 4.0 ecosystem.
-
 ---
 
 ## 📖 Overview
