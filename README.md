@@ -78,7 +78,11 @@ The repository aims to demonstrate:
 ---
 
 
+## 🎥 Demo
 
+Watch the demonstration:
+
+[▶️ LLM4ECM Demo](./LLM4ECM.mp4)
 
 ## 📬 Contact
 
