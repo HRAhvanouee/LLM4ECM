@@ -77,7 +77,6 @@ The repository aims to demonstrate:
 
 ---
 
-
 ## 🎥 Demo
 
 Watch the demonstration:
