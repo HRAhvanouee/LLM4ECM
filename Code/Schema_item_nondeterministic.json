@@ -1,0 +1,87 @@
+      [
+        {
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en-US",
+              "text": "SubmodelElementCollection for change record"
+            },
+            {
+              "language": "de",
+              "text": "SubmodelElementCollection f\u00FCr \u00C4nderungseintrag"
+            }
+          ],
+          "value": [
+            {
+              "category": "CONSTANT",
+              "idShort": "ChangeDescription",
+              "description": [
+                {
+                  "language": "en-US",
+                  "text": "ChangeDescription for the change record"
+                },
+                {
+                  "language": "de",
+                  "text": "\u00C4nderungsbeschreibung f\u00FCr den \u00C4nderungseintrag"
+                }
+              ],
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "One",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "",
+              "modelType": "Property"
+            },
+            {
+              "category": "CONSTANT",
+              "idShort": "DateOfRecord",
+              "description": [
+                {
+                  "language": "en-US",
+                  "text": "Date of the change record"
+                },
+                {
+                  "language": "de",
+                  "text": "Datum des \u00C4nderungseintrags"
+                }
+              ],
+              "qualifiers": [
+                {
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "valueType": "xs:string",
+                  "value": "ZeroToOne",
+                  "valueId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "valueType": "xs:dateTime",
+              "value": "",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ]
+

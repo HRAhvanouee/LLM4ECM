@@ -1,0 +1,49 @@
+{
+  "idShort": "DeterministicEngineeringChange",
+  "id": "https://www.aut.ruhr-uni-bochum.de/SM_Deterministic_Change_Engineering",
+  "kind": "Instance",
+  "semanticId": {
+    "type": "ModelReference",
+    "keys": [
+      {
+        "type": "Submodel",
+        "value": "https://admin-shell.io/idta/DeterministicEngineeringChange/1/1/Submodel"
+      }
+    ]
+  },
+  "submodelElements": [
+    {
+      "idShort": "ContactInformation",
+      "value": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": ""
+          }
+        ]
+      },
+      "modelType": "ReferenceElement"
+    },
+    {
+      "category": "PARAMETER",
+      "idShort": "ChangeRecords",
+      "description": [
+        {
+          "language": "en-US",
+          "text": "List of Change Records"
+        },
+        {
+          "language": "de",
+          "text": "Liste der \u00C4nderungseintr\u00E4ge"
+        }
+      ],
+      "orderRelevant": true,
+      "typeValueListElement": "SubmodelElementCollection",
+      "value": [       
+      ],
+      "modelType": "SubmodelElementList"
+    }
+  ],
+  "modelType": "Submodel"
+}
