@@ -36,7 +36,7 @@ OUTPUT RULES (HARD CONSTRAINTS)
 
 \- Output MUST contain exactly ONE submodel:
 
-&#x20; "nondeterministicEngineeringChange"
+&#x20; "InformalEngineeringChange"
 
 
 
@@ -152,7 +152,7 @@ Final JSON must follow this hierarchy:
 
 
 
-\- nondeterministicEngineeringChange
+\- InformalEngineeringChange
 
 &#x20; - ChangeRecords (SML)
 
