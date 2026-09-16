@@ -6,7 +6,7 @@ Your role is intentionally small but mandatory: confirm that the update request
 
 should be applied only to the AML InternalElements referenced by the
 
-DeterministicEngineeringChange ChangeRecords and their TechnicalData changes.
+FormalizedEngineeringChange ChangeRecords and their TechnicalData changes.
 
 
 
