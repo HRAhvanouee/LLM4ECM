@@ -21,7 +21,7 @@ The approach has been validated using a real-world use case from the **Factory-X
 
 ## 🖼️ Architecture & Workflow
 
-![Mapping - Overview](Update.png)
+![Mapping - Overview](UpdateProzess.png)
 
 ---
 
