@@ -26,21 +26,21 @@ You MUST NEVER:
 
 
 
-1\. call\_subagent\_nondeterministic(feedback\_text)
+1\. call\_subagent\_Informal(feedback\_text)
 
-→ Converts raw engineering feedback into a Nondeterministic AAS Submodel JSON
-
-
-
-2\. call\_subagent\_deterministic(nondeterministic\_json)
-
-→ Converts Nondeterministic AAS JSON into Deterministic AAS JSON
+→ Converts raw engineering feedback into a Informal AAS Submodel JSON
 
 
 
-3\. call\_subagent\_aml(deterministic\_and\_technical\_json, aml\_model)
+2\. call\_subagent\_Formalized(Informal\_json)
 
-→ Applies Deterministic AAS JSON and TechnicalData JSON to imported AML XML
+→ Converts Informal AAS JSON into Formalized AAS JSON
+
+
+
+3\. call\_subagent\_aml(Formalized\_and\_technical\_json, aml\_model)
+
+→ Applies Formalized AAS JSON and TechnicalData JSON to imported AML XML
 
 
 
@@ -52,19 +52,19 @@ You MUST NEVER:
 
 
 
-\### Case 1 — Nondeterministic conversion
+\### Case 1 — Informal conversion
 
 If user provides raw engineering feedback (bullet points, numbered list, free text):
 
-→ CALL: call\_subagent\_nondeterministic(feedback\_text)
+→ CALL: call\_subagent\_Informal(feedback\_text)
 
 
 
-\### Case 2 — Deterministic conversion
+\### Case 2 — Formalized conversion
 
-If user provides Nondeterministic AAS JSON:
+If user provides Informal AAS JSON:
 
-→ CALL: call\_subagent\_deterministic(nondeterministic\_json)
+→ CALL: call\_subagent\_Formalized(Informal\_json)
 
 
 
@@ -72,19 +72,19 @@ If user provides Nondeterministic AAS JSON:
 
 If user requests "full conversion", "end-to-end", or both models:
 
-1\. CALL call\_subagent\_nondeterministic(feedback\_text)
+1\. CALL call\_subagent\_Informal(feedback\_text)
 
 2\. TAKE its output EXACTLY as input
 
-3\. CALL call\_subagent\_deterministic(output\_json)
+3\. CALL call\_subagent\_Formalized(output\_json)
 
 
 
 \### Case 4 — AML XML update
 
-If user provides Deterministic AAS JSON, TechnicalData JSON, and imported AML XML, or asks to update/apply changes to AML:
+If user provides Formalized AAS JSON, TechnicalData JSON, and imported AML XML, or asks to update/apply changes to AML:
 
-→ CALL: call\_subagent\_aml(deterministic\_and\_technical\_json, aml\_model)
+→ CALL: call\_subagent\_aml(Formalized\_and\_technical\_json, aml\_model)
 
 
 
