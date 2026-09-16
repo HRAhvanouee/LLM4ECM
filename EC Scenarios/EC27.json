@@ -2368,7 +2368,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://www.aut.ruhr-uni-bochum.de/SM_Deterministic_Change_Engineering"
+              "value": "https://www.aut.ruhr-uni-bochum.de/SM_Formalize_Change_Engineering"
             }
           ]
         },
@@ -149548,15 +149548,15 @@
       "modelType": "Submodel"
     },
     {
-      "idShort": "DeterministicEngineeringChange",
-      "id": "https://www.aut.ruhr-uni-bochum.de/SM_Deterministic_Change_Engineering",
+      "idShort": "FormalizeEngineeringChange",
+      "id": "https://www.aut.ruhr-uni-bochum.de/SM_Formalize_Change_Engineering",
       "kind": "Instance",
       "semanticId": {
         "type": "ModelReference",
         "keys": [
           {
             "type": "Submodel",
-            "value": "https://admin-shell.io/idta/DeterministicEngineeringChange/1/1/Submodel"
+            "value": "https://admin-shell.io/idta/FormalizeEngineeringChange/1/1/Submodel"
           }
         ]
       },
@@ -174050,22 +174050,22 @@
       "modelType": "ConceptDescription"
     },
     {
-      "idShort": "NondeterministicEngineeringChange",
+      "idShort": "InformalEngineeringChange",
       "description": [
         {
           "language": "en-US",
-          "text": "The Submodel NondeterministicEngineeringChange for showing the Nondeterministic Engineering Data in AAS Format. "
+          "text": "The Submodel InformalEngineeringChange for showing the Informal Engineering Data in AAS Format. "
         },
         {
           "language": "de",
-          "text": "Das Teilmodell NondeterministicEngineeringChange zur Darstellung der Nondeterministic Engineering-Daten im AAS-Format."
+          "text": "Das Teilmodell InformalEngineeringChange zur Darstellung der Informal Engineering-Daten im AAS-Format."
         }
       ],
       "administration": {
         "version": "1",
         "revision": "1"
       },
-      "id": "https://admin-shell.io/idta/NondeterministicEngineeringChange/1/1/Submodel",
+      "id": "https://admin-shell.io/idta/InformalEngineeringChange/1/1/Submodel",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -174081,14 +174081,14 @@
             "preferredName": [
               {
                 "language": "en-US",
-                "text": "NondeterministicEngineeringChange"
+                "text": "InformalEngineeringChange"
               }
             ],
             "unit": "",
             "definition": [
               {
                 "language": "en-US",
-                "text": "The Submodel NondeterministicEngineeringChange for showing the Nondeterministic Engineering Data in AAS Format. "
+                "text": "The Submodel InformalEngineeringChange for showing the Informal Engineering Data in AAS Format. "
               }
             ],
             "modelType": "DataSpecificationIec61360"
@@ -174098,22 +174098,22 @@
       "modelType": "ConceptDescription"
     },
     {
-      "idShort": "DeterministicEngineeringChange",
+      "idShort": "FormalizeEngineeringChange",
       "description": [
         {
           "language": "en-US",
-          "text": "The Submodel DeterministicEngineeringChange for showing the Deterministic Engineering Data in AAS Format. "
+          "text": "The Submodel FormalizeEngineeringChange for showing the Formalize Engineering Data in AAS Format. "
         },
         {
           "language": "de",
-          "text": "Das Teilmodell DeterministicEngineeringChange zur Darstellung der Deterministic Engineering-Daten im AAS-Format."
+          "text": "Das Teilmodell FormalizeEngineeringChange zur Darstellung der Formalize Engineering-Daten im AAS-Format."
         }
       ],
       "administration": {
         "version": "1",
         "revision": "1"
       },
-      "id": "https://admin-shell.io/idta/DeterministicEngineeringChange/1/1/Submodel",
+      "id": "https://admin-shell.io/idta/FormalizeEngineeringChange/1/1/Submodel",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -174129,14 +174129,14 @@
             "preferredName": [
               {
                 "language": "en-US",
-                "text": "DeterministicEngineeringChange"
+                "text": "FormalizeEngineeringChange"
               }
             ],
             "unit": "",
             "definition": [
               {
                 "language": "en-US",
-                "text": "The Submodel DeterministicEngineeringChange for showing the Deterministic Engineering Data in AAS Format. "
+                "text": "The Submodel FormalizeEngineeringChange for showing the Formalize Engineering Data in AAS Format. "
               }
             ],
             "modelType": "DataSpecificationIec61360"
